@@ -14,9 +14,10 @@ Dotnet app that builds in CircleCI and publishes to AWS SNS.
 6. cd into the project and type `docker build -t dotnetapp .`
 7. `docker images` to see what you've done, and
 8. `docker run --name test -t dotnetapp` to run the app
-9. connect w/ ecs? http://docs.aws.amazon.com/AmazonECS/latest/developerguide/docker-basics.html
+9. connect w/ ecs? 
 
-
-TODO: log into circleCI and build project
+http://docs.aws.amazon.com/AmazonECS/latest/developerguide/docker-basics.html
+https://stackoverflow.com/questions/29112692/aws-cli-tools-on-circle-ci-configure-unknown-command
+https://circleci.com/blog/circleci-aws-ecrecs/
 
 
